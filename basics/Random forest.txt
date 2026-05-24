@@ -1,0 +1,35 @@
+Random forest:
+randomness+ Decision Trees + Voting(Majority wins)
+1. decision trees:
+Splits data using conditions
+single tree is unstable, compared to multiple trees
+2. Random Forest:
+It adds two types of randomness
+a) Row randomness(Bootstraping):
+Each tree trains on a random subset of rows(with replacement)
+this prevents memorization
+b)Feature randomness:
+Each splits only sees random subset of features.
+3) Voting system:
+Each tree predicts a class based on majority of voting.
+Example:
+Tree1 → European
+Tree2 → African
+Tree3 → European
+Tree4 → Asian
+Tree5 → European
+
+Final output = majority vote
+👉 European
+Its just statistics
+
+It works on small datasets
+Numeric features
+Non-linear pattrerns
+Mixed distributions
+No need for feature scaling
+No deep preprocessing
+
+Advantages:
+Error cancellation
+Low correlation between trees

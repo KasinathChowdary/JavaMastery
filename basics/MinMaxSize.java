@@ -1,0 +1,39 @@
+class MinMaxSize
+{
+	public static void main(String args[])
+	{
+		System.out.println("----------Integer----------");
+		System.out.println("Size:"+Integer.SIZE);
+		System.out.println("MaxSize:"+Integer.MAX_VALUE);
+		System.out.println("MinSize:"+Integer.MIN_VALUE);
+		System.out.println("----------SHORT----------");
+		System.out.println("Size:"+Short.SIZE);
+		System.out.println("MaxSize:"+Short.MAX_VALUE);
+		System.out.println("MinSize:"+Short.MIN_VALUE);
+		System.out.println("----------Long----------");
+		System.out.println("Size:"+Long.SIZE);
+		System.out.println("MaxSize:"+Long.MAX_VALUE);
+		System.out.println("MinSize:"+Long.MIN_VALUE);
+		System.out.println("----------Float----------");
+		System.out.println("Size:"+Float.SIZE);
+		System.out.println("MaxSize:"+Float.MAX_VALUE);
+		System.out.println("MinSize:"+Float.MIN_VALUE);
+		System.out.println("----------Byte----------");
+		System.out.println("Size:"+Byte.SIZE);
+		System.out.println("MaxSize:"+Byte.MAX_VALUE);
+		System.out.println("MinSize:"+Byte.MIN_VALUE);
+		System.out.println("----------Double----------");
+		System.out.println("Size:"+Double.SIZE);
+		System.out.println("MaxSize:"+Double.MAX_VALUE);
+		System.out.println("MinSize:"+Double.MIN_VALUE);
+		System.out.println("----------Char----------");
+		System.out.println("Size:"+Character.SIZE);
+		System.out.println("MaxSize:"+Character.MAX_VALUE);
+		System.out.println("MinSize:"+Character.MIN_VALUE);
+		/*System.out.println("----------Boolean----------");
+		System.out.println("Size:"+Boolean.SIZE);
+		System.out.println("MaxSize:"+Boolean.MAX_VALUE);
+		System.out.println("MinSize:"+Boolean.MIN_VALUE);*/
+	}
+}
+		
